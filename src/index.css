@@ -28,6 +28,10 @@ html, body {
     font-family: "Helvetica Neue"
 }
 
+.maintext {
+  @apply text-xl text-lime-400 font-semibold italic uppercase;
+}
+
 .box-shadow-bottom::after {
   content: '';
   position: absolute;
