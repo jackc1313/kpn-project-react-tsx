@@ -19,7 +19,7 @@ export default function Navbar(){
                 <span className={`block h-0.5 w-6 bg-lime-400 transition-transform duration-300 ease-in-out ${isOpen ? '-rotate-45 -translate-y-1.5' : ''}`}></span>
             </button>
 
-            <ul className={`nav-voices-font gap-10 text-xl text-lime-400 font-semibold italic uppercase
+            <ul className={`gap-10 text-xl text-lime-400 font-semibold italic uppercase
             ${isOpen ? 'flex flex-col absolute top-full left-0 w-full backdrop-blur shadow-lg py-4 md:relative md:flex md:flex-row md:py-0 md:bg-transparent md:shadow-none' : 'hidden md:flex'}`
             }>
                 <li>Home</li>
